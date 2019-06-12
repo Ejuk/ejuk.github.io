@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Престиж авто</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="css/css.css" type="text/css"/>
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/js.js"></script>
+	<script src="js/bootstrap.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-primary bg-white">
+  	<a class="navbar-brand" href="#">Престиж авто</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  	</button>
+
+  	<div class="collapse navbar-collapse" id="navbar1">
+    	<ul class="navbar-nav mr-auto">
+      		<li class="nav-item active">
+        		<a class="nav-link" href="#">Головна<span class="sr-only">(current)</span></a>
+      		</li>
+      		<li class="nav-item dropdown">
+        		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Виробники</a>
+        		<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+          			<a class="dropdown-item" href="#">Tesla</a>
+          			
+        		</div>
+      		</li>
+    	</ul>
+  	</div>
+</nav>
+<div class="mslyd">
+	<img id="mslimg" src="img/1.jpg"/>
+	<div class="mslydp">
+<div class="msln" onclick="slc(0)"><</div>
+<div class="msln" id="mslc">1</div>
+<div class="msln" onclick="slc(1)">></div>
+	</div>
+</div>
+<hr/>
+<div id="commands">
+<div id="comt">Tesla</div>
+<div id="comd">Tesla — американская компания, производитель электромобилей и (через свой филиал SolarCity) решений для хранения электрической энергии.
+
+Компания была основана в июле 2003 года Мартином Эберхардом и Марком Тарпеннингом, но сама компания считает Илона Маска, Джеффри Брайана Штробеля и Иэна Райта её сооснователями.
+
+Названа в честь всемирно известного электротехника и физика Николы Теслы..</div>
+<div id="comi">
+</div>
+<div id="comms">
+<img class="comimgs" onclick="sel('comm1.1')" href="#1.1" src="img/1.1.png"/>
+</div>
+<hr/>
+<div class="footr">
+	 
+	<p style="width:100%;text-align:center;font-size:34px;color:white;margin-top:100px;">Підписатись на Mail-розсилку</p>
+	<div id="fotcon">
+	<form id="formi">
+<p style="display:inline-block;font-size:18px;color:white;">Ваш E-mail:</p><input type="text"/>
+<input type="button" value="Підписатись" onclick="podpis()"/>
+	</form>
+</div>
+</div>
+</body>
+</html>
